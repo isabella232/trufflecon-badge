@@ -18,7 +18,7 @@ contract TruffleBadge is ERC721 {
 
         uint256 newBadgeId = _badgeIds.current();
         _mint(msg.sender, newBadgeId);
-        _setTokenURI(newBadgeId, "https://ipfs.infura-ipfs.io/ipfs/QmQcqMmMx1vn8FoN2RtPubsSpKWTFAWsE1p6hdvwv7ofo8/badge1.png");
+        _setTokenURI(newBadgeId, "https://ipfs.io/ipfs/QmP6AFJbppxmebAgsQJ6mNeBKe22VZGhMzBsSU143XfmiB/meta1.json");
 
         return newBadgeId;
     }
